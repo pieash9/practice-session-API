@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+<section class="flex justify-center items-center h-[100vh]">
+    <div class="flex mx-auto border-2 border-blue-400 p-10">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="h-3/6"><img id="image1" alt="Shoes" /></figure>
+        <div class="card-body h-3/6">
+          <h2 class="card-title">Car name: <span id="name1"></span></h2>
+          <p>Car Details : <span id="details1"></span></p>
+          <div class="card-actions justify-start mt-5">
+            <button class="btn btn-primary item">Car price : <span id="price1"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="h-3/6"><img id="image2" alt="Shoes" /></figure>
+        <div class="card-body h-3/6">
+          <h2 class="card-title">Car name: <span id="name2"></span></h2>
+          <p>Car Details : <span id="details2"></span></p>
+          <div class="card-actions justify-start mt-5">
+            <button class="btn btn-primary item">Car price :  <span id="price2"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    <script src="js/api-2-data.js"></script>
+  </body>
+</html>

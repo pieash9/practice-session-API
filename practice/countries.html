@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+<section class="flex justify-center h-[50vh] mt-20">
+    <div class=" w-6/12 mx-auto border-4 border-cyan-300 rounded-lg">
+      <h1 class="text-3xl font-semibold text-cyan-500 text-center mt-5 ">
+        Countries
+      </h1>
+     <div>
+        <div class="flex justify-center mt-5">
+            <div class="mb-3 xl:w-96">
+              <select class="w-8/12" >
+                <option value="1">Select By Region</option>
+                <option id="africa" value="2">Africa</option>
+                <option id="asia" value="3">Asia</option>
+                <option id="america" value="4">America</option>
+                <option id="europe" value="5">Europe</option>
+                <option id="oceania" value="6">Oceania</option>
+              </select>
+            </div>
+            <div id="show-data" class="grid grid-cols-4 gap-4">
+
+            </div>
+          </div>
+     </div>
+
+    </div>
+</section>
+    <script src="js/countries.js"></script>
+  </body>
+</html>

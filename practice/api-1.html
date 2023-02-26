@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+<section class="flex justify-center items-center h-[100vh]">
+    <div class=" w-8/12 mx-auto border-4 border-cyan-300 ">
+      <h1 class="text-5xl font-semibold text-cyan-500 text-center mt-10 ">
+        Found <span id="found">0</span> Persons
+      </h1>
+      <div class="flex gap-10 p-10">
+        <div class="w-3/6 p-5">
+          <h3 class="border-2 py-3">Person Name : <span id="person-name1"></span></h3>
+          <p>Age: <span id="age1"></span></p>
+          <p>Street : <span id="street1"></span>, House No: <span id="house1"></span></p>
+        </div>
+        <div class="w-3/6 p-5">
+          <h3 class="border-2 py-3">Person Name : <span id="person-name2"></span></h3>
+          <p>Age: <span id="age2"></span></p>
+          <p>Street : <span id="street2"></span>, House No: <span id="house2"></span></p>
+        </div>
+      </div>
+    </div>
+</section>
+    <script src="js/api-1-data.js"></script>
+  </body>
+</html>
